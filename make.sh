@@ -13,5 +13,5 @@ svn checkout https://svn.blender.org/svnroot/bf-blender/trunk/lib/win64_vc12  li
 
 # run cmake
 cd cbuild
-../cmake/bin/cmake.exe ../blender -G "Visual Studio 12 Win64"
+../cmake/bin/cmake.exe ../blender -G "Visual Studio 12 Win64" -DWITH_CYCLES_OSL=False -DWITH_PYTHON_INSTALL_NUMPY=False
 cd ..
