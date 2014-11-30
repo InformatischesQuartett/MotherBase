@@ -18,6 +18,12 @@ bld/
 [Bb]in/
 [Oo]bj/
 
+cbuild/*
+!cbuild/.gitkeep
+
+lib/*
+!lib/.gitkeep
+
 # Roslyn cache directories
 *.ide/
 
@@ -181,3 +187,11 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+# CMAKE
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+install_manifest.txt
+!cmake/*
